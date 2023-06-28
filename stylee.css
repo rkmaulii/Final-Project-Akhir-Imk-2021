@@ -1,0 +1,245 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.home img{
+    float: left;
+    padding: 30px;
+}
+
+.home p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #7F8B52;
+}
+.home h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #A3A847;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #EAE2B6;
+
+}
+
+.logo img{
+    float: right;
+    padding: 30px;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background: #7F8B52;
+    z-index: 1;
+    border-bottom: 1px solid #A3A847;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.kolom.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #FFFFFF
+    ;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #EAE2B6;
+    width: 100%;
+    line-height: 50px;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #FFFFFF;
+    font-family: cursive;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.rekomendasi-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-rekomendasi{
+    width: 20%;
+    margin: auto;
+}
+
+.kartu-rekomendasi img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-rekomendasi p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #EAE2B6 ;
+}
+
+.plantlistp p{
+    text-align: center;
+    color: #7F8B52;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.plantlistp h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #EAE2B6;
+    width: 100%;
+    line-height: 15px;
+}
+.plantlist{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.plantlist h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #dae247;
+    width: 100%;
+    line-height: 50px;
+}
+.plantlist p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #7F8B52;
+    font-family: cursive;
+}
+.kartu-plant{
+    width: 20%;
+    margin: auto;
+}
+
+.kartu-plant img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-plant h4{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #7F8B52 ;
+}
+
+.booking-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.kartu-booking{
+    width: 20%;
+    margin: 0 auto;
+}
+.kartu-booking h4{
+    background-color: blanchedalmond;
+    background-size: cover;
+    width: 100%;
+}
+
+.email h4{
+    background-color: blanchedalmond;
+    background-size: 100%;
+}
+
+.email img{
+    width: 130px;
+    border-radius: 50%;
+}
+
+.kartu-booking img{
+    width: 130px;
+    border-radius: 50%;
+}
+
